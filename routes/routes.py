@@ -4,5 +4,9 @@ route = [
                 (
                         r"/",
                         home.homeHandler
+                ),
+                (
+                                r"/pnr",
+                                pnrController.pnrHandler
                 )
 ]
