@@ -1,9 +1,8 @@
 
 from controllers import *
 route = [
-		(
-			r"/",
-			home.homeHandler
-		)
+                (
+                        r"/",
+                        home.homeHandler
+                )
 ]
-					
