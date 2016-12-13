@@ -6,6 +6,7 @@ from tornado.web import RequestHandler, Application
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
 import os
+import urllib2
 import torn
 
 from routes import *
